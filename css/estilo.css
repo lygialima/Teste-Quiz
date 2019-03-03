@@ -1,0 +1,124 @@
+html, body {
+    overflow-x: hidden; /* devido à fita adesiva sair do container, precisei esconder a barra de rolagem na horizontal */
+}
+html {
+    background: url(../img/annie-spratt-1187427-unsplash.jpg) no-repeat center center fixed;
+            background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+body {
+    color: #000;
+    font: 1.2rem/1.5 Mali, cursive;
+}
+.temaQuiz {
+    background: url(../img/img_papel_craft.png) no-repeat center top;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+.temaQuiz h1 {
+    color: #674f3c;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Special Elite', cursive;
+    height: 140px;
+    justify-content: center;
+}
+article {
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+article header .tituloQuiz {
+    color: #fff;
+    font-family: 'Arial Black', Candal, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+}
+.perguntaQuiz {
+    background: #fff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7f7f7, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7f7f7, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */
+       -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;     /* Safari 4? Chrome 6? */
+    border: 0;
+    border-left: 30px solid transparent;
+            border-image: url(../img/tira_papel.png) 0 0 0 30 repeat;
+         -o-border-image: url(../img/tira_papel.png) 0 0 0 30 repeat; /* Opera 11-12.1 */
+    -webkit-border-image: url(../img/tira_papel.png) 0 0 0 30 repeat; /* Safari 3.1-5 */
+            box-shadow: 6px 4px 4px 0 rgba(0,0,0,.5);
+    -webkit-box-shadow: 6px 4px 4px 0 rgba(0,0,0,.5);
+    margin: 2rem auto;
+    max-width: 740px;
+    padding: 40px 28px 40px 40px;
+}
+.fita-pergunta, .fita-resposta {
+    background-color: rgba(240,236,240,.5);
+    height: 30px;
+    width: 120px;
+}
+.fita-pergunta.fita1 {
+    margin: 30px 0 0 150px;
+    position: absolute;
+    transform: rotate(140deg);
+}
+.fita-pergunta.fita2 {
+    margin: -50px 0 0 860px;
+    position: absolute;
+    transform: rotate(155deg);
+}
+.fita-resposta {
+    margin: 4rem auto 0;
+    max-width: 740px;
+}
+.fita-resposta.fita3 {
+    transform: rotate(-2deg);
+}
+.fita-resposta.fita4 {
+    transform: rotate(0deg);
+}
+.fita-resposta.fita5 {
+    transform: rotate(3deg);
+}
+.respostaQuiz {
+    background-color: #fff;
+            background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */
+       -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;     /* Safari 4? Chrome 6? */
+    border: 0;
+    border-bottom: 18px solid transparent;
+            border-image: url(../img/borda_papel.png) 0 0 18 0 repeat;
+         -o-border-image: url(../img/borda_papel.png) 0 0 18 0 repeat; /* Opera 11-12.1 */
+    -webkit-border-image: url(../img/borda_papel.png) 0 0 18 0 repeat; /* Safari 3.1-5 */
+    margin: -14px auto 0;
+    max-width: 740px;
+    padding: 40px 28px 40px 40px;
+}
+.respostaQuiz:hover {
+    background-color: #fff2ad;
+    cursor: pointer;
+}
+article footer .btn {
+    display: block;
+    margin: 4rem auto;
+    max-width: 740px;
+    text-align: center;
+}
+.modal-body {
+    background-color: #7bb650;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 2rem;
+    text-align: center;
+}
+.seguirPagina {
+    float: right;
+    margin-bottom: 2rem;
+}

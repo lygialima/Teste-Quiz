@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    .fita-adesiva.fita1 {
+        margin-left: 60px;
+    }
+    .fita-adesiva.fita2 {
+        margin-left: 770px;
+    }
+}
+@media (max-width: 991px) {
+    .fita-adesiva.fita1 {
+        margin-left: -30px;
+    }
+    .fita-adesiva.fita2 {
+        margin-left: 620px;
+    }
+}
+@media (max-width: 767px) {
+    .fita-adesiva.fita2 {
+        margin-left: 440px;
+    }
+}
+@media (max-width: 575px) {
+    .fita-adesiva.fita2 {
+        margin-left: 82%;
+    }
+}
