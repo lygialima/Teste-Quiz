@@ -1,26 +1,75 @@
-@media (max-width: 1200px) {
-    .fita-adesiva.fita1 {
+@media screen and (max-width: 1920px) {
+    .foto3 {
+        left: 0;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .foto3 {
+        left: -240px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .foto1 {
+        margin-left: -60px;
+    }
+    .foto2 {
         margin-left: 60px;
     }
-    .fita-adesiva.fita2 {
-        margin-left: 770px;
+}
+@media screen and (max-width: 991px) {
+    .fita-pergunta.fita2 {
+        margin-left: 540px;
+    }
+    .fita-resposta {
+        margin-left: 240px;
+    }
+    .foto1 {
+        margin-left: -158px;
+    }
+    .foto2 {
+        margin-left: -60px;
     }
 }
-@media (max-width: 991px) {
-    .fita-adesiva.fita1 {
-        margin-left: -30px;
+@media screen and (max-width: 767px) {
+    .fita-pergunta.fita2 {
+        margin-left: 360px;
     }
-    .fita-adesiva.fita2 {
-        margin-left: 620px;
+    .fita-resposta {
+        margin-left: 160px;
+    }
+    .foto1 {
+        margin-left: -250px;
+    }
+    .foto2 {
+        margin-left: -150px;
     }
 }
-@media (max-width: 767px) {
-    .fita-adesiva.fita2 {
-        margin-left: 440px;
+@media screen and (max-width: 477px) {
+    h1.tituloQuiz.titulo2 {
+        padding-top: 180px;
     }
 }
-@media (max-width: 575px) {
-    .fita-adesiva.fita2 {
-        margin-left: 82%;
+@media screen and (min-width: 463px) and (max-width: 575px) {
+    .fita-pergunta.fita2 {
+        margin-left: 75%;
+    }
+    .fita-resposta {
+        margin-left: 30%;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 462px) {
+    .fita-pergunta.fita2 {
+        margin-left: 65%;
+    }
+    .fita-resposta {
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .fita-pergunta.fita2 {
+        margin-left: 58%;
+    }
+    .fita-resposta {
+        margin-left: 18%;
     }
 }

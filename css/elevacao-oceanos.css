@@ -1,0 +1,53 @@
+html {
+    background: url(../img/painel_cortica.jpg) repeat center center fixed;
+            background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.tituloQuiz {
+    background: url(../img/papel_verde.png) no-repeat center top;
+            filter: drop-shadow(3px 5px 3px rgba(0,0,0,.8));
+    -webkit-filter: drop-shadow(3px 5px 3px rgba(0,0,0,.8));
+    height: 480px;
+    left: 0;
+    position: absolute;
+    top: -248px;
+    width: 100%;
+    z-index: 1;
+}
+h1.tituloQuiz.titulo2 {
+    padding: 214px 15px 0;
+    z-index: 2;
+}
+.perguntaQuiz {
+    margin-top: 24rem;
+}
+.foto1 {
+    background: url(../img/patricia-cassol-pereira-185031-unsplash.jpg) no-repeat center top;
+    border: 20px solid #fff;
+            box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+            filter: drop-shadow(2px 2px 3px rgba(0,0,0,.8));
+    -webkit-filter: drop-shadow(2px 2px 3px rgba(0,0,0,.8));
+    height: 750px;
+    margin: -100px auto 0;
+    position: absolute;
+    transform: rotate(-4deg);
+    width: 1000px;
+    z-index: 0;
+}
+.foto2 {
+    background: url(../img/wallpaperweb.org–wallpaper–nature–tepuka-island-tuvalu_21771.jpg) no-repeat center bottom;
+    border: 20px solid #fff;
+            box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+            filter: drop-shadow(2px 2px 3px rgba(0,0,0,.8));
+    -webkit-filter: drop-shadow(2px 2px 3px rgba(0,0,0,.8));
+    height: 650px;
+    margin: 700px auto 0 150px;
+    position: absolute;
+    transform: rotate(6deg);
+    width: 900px;
+    z-index: -1;
+}

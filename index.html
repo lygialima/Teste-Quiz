@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite|Candal|Mali">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/query.css">
         <title>Teste – Quiz</title>
     </head>
@@ -26,57 +27,66 @@
                     <h1 class="tituloQuiz" itemprop="titulo1">Era do Gelo</h1>
                 </header>
 
-                <div class="fita-pergunta fita1"></div>
                 <p class="perguntaQuiz" itemprop="pergunta1">
+                    <span class="fita-pergunta fita1"></span>
                     O clima mudou diversas vezes no passado. Durante as eras glaciais, o mundo inteiro era muito mais frio. A última Era Glacial teve início cerca de 50 mil anos atrás e terminou há 10 mil anos. Mamíferos habitavam diversas regiões do planeta. Selecione a alternativa correta:
+                    <span class="fita-pergunta fita2"></span>
                 </p>
-                <div class="fita-pergunta fita2"></div>
 
-                <div class="fita-resposta fita3"></div>
                 <p class="respostaQuiz" itemprop="resposta1A">
-                    <b>a)</b> Mamutes peludos se extinguiram cerca de 10 mil anos atrás.
+                    <span class="fita-resposta fita3"></span>
+                    <b>A)</b> Mamutes peludos se extinguiram cerca de 10 mil anos atrás.
                 </p>
 
-                <div class="fita-resposta fita4"></div>
                 <p class="respostaQuiz" itemprop="resposta1B">
-                    <b>b)</b> Nas regiões congeladas do norte, mamutes e rinocerontes eram cobertos por espessas camadas de pêlo que os protegiam do frio.
+                    <span class="fita-resposta fita4"></span>
+                    <b>B)</b> Nas regiões congeladas do norte, mamutes e rinocerontes eram cobertos por espessas camadas de pêlo que os protegiam do frio.
                 </p>
 
-                <div class="fita-resposta fita3"></div>
                 <p class="respostaQuiz" itemprop="resposta1C">
-                    <b>c)</b> Mamutes faziam parte da mesma família dos elefantes, porém eram menores (podiam atingir até 2 metros de altura) e possuíam grandes presas de marfim.
+                    <span class="fita-resposta fita3"></span>
+                    <b>C)</b> Mamutes faziam parte da mesma família dos elefantes, porém eram menores (podiam atingir até 2 metros de altura) e possuíam grandes presas de marfim.
                 </p>
 
-                <div class="fita-resposta fita5"></div>
                 <p class="respostaQuiz" itemprop="resposta1D">
-                    <b>d)</b> Foram encontrados vários fósseis de mamute em países da Europa, norte da Ásia (principalmente Sibéria) e América do Sul, comprovando a vida desta espécie nestes locais.
+                    <span class="fita-resposta fita5"></span>
+                    <b>D)</b> Foram encontrados vários fósseis de mamute em países da Europa, norte da Ásia (principalmente Sibéria) e América do Sul, comprovando a vida desta espécie nestes locais.
                 </p>
                 <footer>
-                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#respostaFinal">Confirmar Resposta</button>
-                    <a class="seguirPagina" itemprop="pagSeguinte" href="">
-                        <i class="fa fa-2x fa-arrow-circle-right"></i>
-                    </a>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalResposta">Confirmar Resposta</button>
+
+                    <a href="elevacao-oceanos.html" class="btn disabled seguirPagina" itemprop="pagSeguinte" role="button"><i class="fa fa-2x fa-arrow-circle-right"></i></a>
                 </footer>
             </div>
         </article>
 
-        <!-- Modal -->
-        <div class="modal fade" id="respostaFinal" tabindex="-1" role="dialog" aria-labelledby="modalRespostaFinal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <p>
-                    Parabéns!<br>
-                    A resposta está correta!
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+        <!-- Modal Resposta -->
+        <div class="modal fade" id="modalResposta" tabindex="-1" role="dialog" aria-labelledby="modalRespostaFinal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <!-- Resposta Correta -->
+                    <!-- <div class="modal-body resposta-certa">
+                        <p>
+                            Parabéns!<br>
+                            A resposta está correta!
+                        </p>
+                    </div> -->
+                    <!-- **************** -->
+                    <!-- Resposta Errada -->
+                    <div class="modal-body resposta-errada">
+                        <p>
+                            Sua resposta está errada.<br>
+                            Tente novamente.
+                        </p>
+                    </div>
+                    <!-- *************** -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <!-- /Modal -->
+        <!-- /Modal Resposta -->
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
