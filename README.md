@@ -11,7 +11,7 @@ O resultado? Fui contratada rapidamente!
 
 Minha temática de quiz escolhida foi Mudanças no Clima, porque além de ter estimulado minha criatividade para trabalhar com fotos, montagens e texturas,
 obtive suficiente auxílio de conteúdo de um livro para pré-adolescentes, que fala deste e diversos outros temas. Achei que, pelo conteúdo, estava
-mais fácil para montar as perguntas e respostas, por isso, o escolhi.
+mais fácil para montar as perguntas e respostas, por isso, a escolhi.
 
 Quanto a ferramenta escolhida foi o HTML/CSS, usando Bootstrap como base, e um pouquinho, apenas um pouquinho,
 de lógica de JavaScript. Hoje em dia, eu utilizaria softwares de prototipação como Adobe XD ou o tão famoso e falado Figma.
