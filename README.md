@@ -9,4 +9,7 @@ tendo como prerrogativa, apresentar os esboços das idéias das telas e layouts 
 
 O resultado? Fui contratada rapidamente!
 
-Assim, então, apresento o meu desenvolvimento final. Neste repositório, você encontra meus estudos na pasta "layouts"!
+Como se vê aqui, a ferramenta que eu escolhi construir o Quiz foi em HTML/CSS, usando Bootstrap como base e um pouquinho, apenas um pouquinho,
+de lógica de JavaScript.
+
+Neste repositório, você encontra meus estudos na pasta "layouts".
