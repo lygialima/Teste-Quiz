@@ -9,7 +9,7 @@ tendo como prerrogativa, apresentar os esboços das idéias das telas e layouts 
 
 O resultado? Fui contratada rapidamente!
 
-Como se vê aqui, a ferramenta que eu escolhi construir o Quiz foi HTML/CSS, usando Bootstrap como base e um pouquinho, apenas um pouquinho,
+Como se vê aqui, a ferramenta que eu escolhi construir o Quiz foi o HTML/CSS, usando Bootstrap como base, e um pouquinho, apenas um pouquinho,
 de lógica de JavaScript. Hoje em dia, eu utilizaria softwares de prototipação como Adobe XD ou o tão famoso e falado Figma.
 
 Neste repositório, você encontra meus estudos na pasta "layouts".
