@@ -16,4 +16,4 @@ mais fácil para montar as perguntas e respostas, por isso, a escolhi.
 Quanto a ferramenta escolhida foi o HTML/CSS, usando Bootstrap como base, e um pouquinho, apenas um pouquinho,
 de lógica de JavaScript. Hoje em dia, eu utilizaria softwares de prototipação como Adobe XD ou o tão famoso e falado Figma.
 
-Neste repositório, você encontra meus estudos na pasta "layouts".
+Neste repositório, você encontra meus estudos na pasta `layouts`.
